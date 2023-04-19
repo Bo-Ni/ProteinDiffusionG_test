@@ -11,4 +11,8 @@ setup(
     author_email='boni.mechanics@gmail.com',
 
     py_modules=find_packages(),
+    
+    install_requires=[
+    'returns-decorator',
+    ],
 )
