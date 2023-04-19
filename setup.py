@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from my_pip_package import __version__
 
@@ -10,5 +10,5 @@ setup(
     author='Bo Ni',
     author_email='boni.mechanics@gmail.com',
 
-    py_modules=['my_pip_package'],
+    py_modules=find_packages(),
 )
